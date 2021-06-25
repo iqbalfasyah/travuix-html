@@ -10,12 +10,12 @@ body {
     }
 }
 
-.navbar-light{
-    .navbar-nav{
-        .nav-link{
-            color:#071C4D;
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071C4D;
 
-            &.active{
+            &.active {
                 font-weight: bold;
                 color: #071C4D !important;
             }
@@ -23,13 +23,13 @@ body {
     }
 }
 
-.btn-navbar-right{
+.btn-navbar-right {
     margin-top: -10px !important;
     margin-bottom: -8px !important;
     margin-right: -18px !important;
 
     height: 70px;
-    border-radius:0;
+    border-radius: 0;
 }
 
 .btn-login {
@@ -40,4 +40,62 @@ body {
         background-color: #1E3771;
         color: #fff;
     }
+}
+
+//Header
+
+header {
+    padding: 195px 0px 165px;
+    margin-top: -70px;
+
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+
+    h1,
+    p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+
+        font-size: 50px;
+    }
+
+    p {
+        font-family: 'Assistant', serif;
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #fff;
+
+        &:hover {
+            background-color: #ff9e55;
+            color: #fff;
+        }
+    }
+}
+
+.section-stats{
+    margin-top:-50px;
+
+    .stats-detail{
+        padding-top:20px;
+        background-color:#fff;
+        padding-left: 50px;
+    }
+
+    h2{
+        font-size:30px;
+        margin-bottom: 0;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
 }
