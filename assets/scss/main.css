@@ -286,27 +286,117 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
-.section-details-content .features {
-  margin-top: 20px;
-}
-
-.section-details-content .features h3 {
+.section-details-content .card-details .trip-information th {
+  font-weight: 300;
   font-size: 18px;
   color: #071C4D;
+}
+
+.section-details-content .card-details .trip-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .trip-information .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-information .text-orange {
+  color: #ff9e53;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071C4d;
   margin-bottom: 0;
 }
 
-.section-details-content .features p {
+.section-details-content .card-details .bank .bank-item p {
   margin-bottom: 0;
 }
 
-.section-details-content .features .description {
+.section-details-content .card-details .bank .bank-item .description {
   margin-left: 10px;
   overflow: hidden;
   float: left;
 }
 
-.section-details-content .features .features-image {
+.section-details-content .card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font: size 16px;
+  color: #071C4D;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #071C4D;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+  height: 38px;
+}
+
+.section-details-content .card-details .gj-datepicker img {
+  margin-top: 7px;
+}
+
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #1B3B86;
+}
+
+.section-details-content s .features {
+  margin-top: 20px;
+}
+
+.section-details-content s .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.section-details-content s .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content s .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content s .features .features-image {
   width: 45px;
   height: 45px;
   float: left;
